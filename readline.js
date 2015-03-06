@@ -66,6 +66,9 @@ var commands = {
   },
   add:function(item) {
     toDoList.push(item);
+  },
+  remove:function(item) {
+    console.log("I want to remove", item, "!" );
   }
 };
 
